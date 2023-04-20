@@ -60,7 +60,5 @@ function App() {
 
 export default App
 
-// 28:28
-// d113bf2857mshf1bf82bbecd02d8p1e9d1djsn2f5b44680886
-// c58a95058fmshc32d7b988dfc852p128ae4jsnca9a5f66e85b
+
 
