@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { useRef, useState } from 'react';
 import { youtube_parser } from './utils';
-import VITE_RAPID_API_KEY from "./favcon";
 
 function App() {
   const inputUrlRef = useRef();
@@ -15,7 +14,7 @@ function App() {
       method: 'get',
       url: 'https://youtube-mp36.p.rapidapi.com/dl',
       headers: {
-        'X-RapidAPI-Key': VITE_RAPID_API_KEY,
+        'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
 
         'X-RapidAPI-Host': 'youtube-mp36.p.rapidapi.com',
       },
@@ -61,5 +60,7 @@ function App() {
 
 export default App
 
-
+// 28:28
+// d113bf2857mshf1bf82bbecd02d8p1e9d1djsn2f5b44680886
+// c58a95058fmshc32d7b988dfc852p128ae4jsnca9a5f66e85b
 
